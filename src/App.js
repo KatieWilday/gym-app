@@ -5,7 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Katie is the best!</h1>
+        <Route exact path ='/home' component={Home} />
+        <Route path='/about' component={About} />
+        <Route path='/contact' component={Contact} />
       </header>
     </div>
   );

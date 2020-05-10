@@ -4,9 +4,6 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const name = "Katie Wilday"
-const element = <h1>Hello, {name}</h1>
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
