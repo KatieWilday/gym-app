@@ -3,12 +3,11 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Route,
-  Link
 } from "react-router-dom";
 import NavBar from './components/NavBar'
-import Home from './components/Home'
-import About from './components/About'
-import Contact from './components/Contact'
+import Home from './components/Home/Home'
+import About from './components/About/About'
+import Contact from './components/Contact/Contact'
 import Results from './components/Results'
 
 function App() {
