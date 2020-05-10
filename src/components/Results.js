@@ -1,12 +1,12 @@
 import React from 'react'
 
-class Contact extends React.Component {
+class Results extends React.Component {
    render() {
       return (
          <div>
-            <h1>Contact...</h1>
+            <h1>Results...</h1>
          </div>
       )
    }
 }
-export default Contact;
+export default Results;
